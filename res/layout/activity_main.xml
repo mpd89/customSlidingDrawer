@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#981b1e"
+    tools:context=".Main" >
+
+    <view
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="mil.darpa.mesa.sdk.android.widgets.drawer.SlidingDrawer"
+        android:cacheColorHint="#00000000"
+        android:translationX="-558.0dip" />
+
+    <ImageView
+        android:id="@+id/testImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        />
+        
+</FrameLayout>
